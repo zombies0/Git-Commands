@@ -1,0 +1,66 @@
+git status
+git init
+git add --a //or// git add .
+git commit -m "file comment"
+git log
+rm -rf .git
+
+pwd
+ls
+cd
+
+touch .gitignore
+
+// .gitignore
+
+error.log
+*.log
+Folder/
+/Folder/
+
+//upload on github
+
+git remote add origin https://github.com/zombies0/Java-Practice.git
+
+git push -u origin master
+
+//Branching
+
+git branch
+
+git check
+
+git branch diff_branch_create
+
+git checkout diff_branch_create
+
+git push -u origin diff_branch
+
+
+git checkout master
+
+git merge diff_branch_create
+
+// deleting old branch
+
+//1. from local
+
+git branch -d diff_branch
+
+//2. from remote server
+
+git push origin --delete diff_branch
+
+// deleting file from remote server only
+
+git rm -r .metadata
+
+git add .
+
+git commit -m "Deleted matadata"
+
+git push -u origin master 
+
+
+
+- by Ambrish
